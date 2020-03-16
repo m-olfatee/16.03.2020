@@ -26,17 +26,19 @@ let europäischeUnion = {
     Irland: "(IE)",
     Lettland: "(LV)",
     Polen: "(PL)",
-    VereinigtesKönigreich: "(UK)"
+    VereinigtesKönigreich: "(UK)",
+    BeneluxUnion: {
+        Belgien: "(BE)",
+        Niederlände: "(NL)",
+        Luxemburg: "(LU)"
+    }
 }
 console.log(europäischeUnion.Belgien);
 console.log(europäischeUnion.Niederlände);
 console.log(europäischeUnion.Luxemburg);
 
-let BeneluxUnion = {}
-BeneluxUnion.Belgien = "(BE)";
-BeneluxUnion.Niederlände = "(NL)";
-BeneluxUnion.Luxemburg = "(LU)";
-console.log(BeneluxUnion);
+
+console.log(europäischeUnion.BeneluxUnion);
 
 // ---------------------------------------------------------------//
 
