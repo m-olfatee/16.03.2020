@@ -214,6 +214,9 @@ var studentData = [
         emails: ["sandra@gmail.com", "sandra@yahoo.com"]
     }
 ];
+studentData.forEach(i => {
+    document.write(`Name is: ${i.name} <br> COOP is: ${i.coop} <br> City is: ${i.address.city} <br> E-Mail is: ${i.emails[0]} and ${i.emails[1]} <br> `)
+})
 
 
 
